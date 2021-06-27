@@ -3,15 +3,17 @@ import styled from "styled-components";
 import Status from "./status";
 
 const Component = styled.div`
-  background-color: #f7f8f9;
-  padding: 8px 16px;
+  background-color: white;
+  padding: 10px 16px;
   border-radius: 3px;
   justify-content: space-between;
   align-items: center;
   display: flex;
+  font-size: 15px;
+  box-shadow: 0 1px 5px 0 rgba(100, 100, 100, 0.3);
 
   :not(:last-child) {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 `;
 

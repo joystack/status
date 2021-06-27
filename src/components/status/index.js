@@ -7,9 +7,7 @@ const StatusBar = styled.div`
   background-color: ${(props) =>
     props.backgroundColour ? props.backgroundColour : "#b1b1b1"};
   color: white;
-  padding: 16px;
-  border-radius: 3px;
-  margin-bottom: 32px;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,14 +19,13 @@ const Status = styled.h2`
   font-size: 20px;
   margin: 0;
   font-weight: normal;
+  color: white;
 `;
 
-const Reload = styled.button`
+const Time = styled.span`
   background-color: transparent;
   color: white;
-  text-decoration: underline;
   border: none;
-  cursor: pointer;
   text-align: right;
   padding: 0;
 `;
@@ -57,7 +54,7 @@ export default ({ loading, error, components, refetch }) => {
       )}
       <StatusBar backgroundColour={status?.backgroundColour}>
         <Status>{status?.message}</Status>
-        <Reload onClick={refetch}>{loading ? "reloading" : timeAgo}</Reload>
+        <Time>{loading ? "reloading" : timeAgo}</Time>
       </StatusBar>
     </>
   );

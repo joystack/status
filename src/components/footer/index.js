@@ -8,7 +8,7 @@ const Footer = styled.div`
 `;
 
 const Branding = styled.a`
-  color: #6e6b6b;
+  color: #ffffff;
   font-size: 13px;
   text-decoration: none;
   transition: 0.3s;

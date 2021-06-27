@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial;
-  background-color: #f5f8fa;
+  font-family: 'Titillium Web', Roboto, 'Helvetica Neue', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',  Arial,
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+  background: #e8ecef;
+  height: auto;
 }

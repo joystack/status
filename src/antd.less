@@ -1,0 +1,51 @@
+@import "./../node_modules/antd/dist/antd.less";
+
+@primary-color: #ff6431; // primary color for all components
+@button-active-color: #ff453d;
+@link-color: #fe7547; // link color
+@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #f5222d; // error state color
+@font-size-base: 14px; // major text font size
+@font-family: 'Titillium Web', Roboto, 'Helvetica Neue', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',  Arial,
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+@heading-color: rgba(0, 0, 0, 0.85); // heading text color
+@text-color: rgba(0, 0, 0, 0.65); // major text color
+@text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
+@disabled-color: rgba(0, 0, 0, 0.25); // disable state color
+@border-radius-base: 5px; // major border radius
+@background-color-base: #e8ecef;
+@border-color-base: #ededed; // major border color
+@box-shadow-base: -1px 1px 9px 0px rgba(185, 192, 197, 0.5);
+
+a.ant-btn {
+  display: flex;
+  padding-top: inherit;
+  & > * {
+    margin: auto;
+  }
+}
+
+.ant-btn {
+  -webkit-user-drag: none;
+  user-select: none;
+  transition: all .3s ease;
+
+  .anticon {
+    line-height: inherit;
+    margin: auto;
+  }
+
+  span {
+    line-height: inherit;
+  }
+}
+
+.ant-btn-primary:hover {
+  box-shadow: 0 0 10px 3px rgba(247, 116, 74, 0.2);
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  background-color: @primary-color;
+  border-color: @primary-color;
+}

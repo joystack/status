@@ -14,7 +14,9 @@
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "antd": "^4.16.5",
+    "@ant-design/icons": "^4.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
