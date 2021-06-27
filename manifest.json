@@ -1,0 +1,21 @@
+{
+  "name": "Joystack Status",
+  "short_name": "jss",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "brand/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "brand/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
