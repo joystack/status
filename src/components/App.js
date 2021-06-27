@@ -34,7 +34,7 @@ const minecraftBackgroundCount = 6
 function useRandomBackgroundImage() {
   return React.useMemo(() => {
     const index = Math.floor(Math.random() * minecraftBackgroundCount)
-    return `/background/minecraft/background-${index}.jpg`
+    return `background/minecraft/background-${index}.jpg`
   }, [])
 }
 

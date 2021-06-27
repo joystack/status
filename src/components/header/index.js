@@ -14,7 +14,7 @@ const Header = styled.div`
 export default () => (
   <Header>
       <Logo
-        src="/brand/logo.png"
+        src="brand/logo.png"
         alt="Joystack"
       />
   </Header>
